@@ -32,7 +32,7 @@ jobs:
         uses: ./
         with:
           envFile: '.github/workflows/test/case1.env'
-          export: 'false'
+          export: 'true'
 
       - name: Check noExport result
         if: |
